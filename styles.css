@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #fafafa;
+    --violet: #e2d8fd;
+    --black: #363636;
+    --gray1: #e1e1e1;
+    --gray2: #6a6a6a;
+}
+
+html, body, .main-container {
+    height: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background: var(--violet)
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
