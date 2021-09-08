@@ -72,6 +72,13 @@ a {
     padding: 0 2rem;
 }
 
+.card__logo-bb {
+    position: absolute;
+    width: 20%;
+    margin-left: 12rem;
+    margin-top: 1.2rem;
+}
+
 .card__logo {
     position: absolute;
     width: 20%;
